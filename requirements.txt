@@ -1,0 +1,4 @@
+pydub
+wave
+google-cloud-storage
+google-cloud-speech
