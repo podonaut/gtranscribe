@@ -52,7 +52,7 @@ The python script calls ffmpeg under the hood. Make sure it is installed on you 
 
 ## Transcribe
 
-You should now be setup. I have included a few audio files in the audio directory. It is [Thackery Binx](https://disney.fandom.com/wiki/Thackery_Binx) from the movie Hocus Pocus saying the phrase, "it's protected by magic".
+You should now be setup. I have included a few audio files in the audio directory. It is [Thackery Binx](https://disney.fandom.com/wiki/Thackery_Binx) from the movie [Hocus Pocus](https://disney.fandom.com/wiki/Hocus_Pocus) saying the phrase, _"it's protected by magic"_.
 
 _Bonus points if any one can figure out why that snippet of audio is being used._
 
