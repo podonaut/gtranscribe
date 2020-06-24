@@ -1,6 +1,6 @@
 # gTrancript
 
-I found this article on medium about using the google speech to text API.
+I found this article on medium about using the [google speech to text API](https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9).
 
 As a python coder this was a good first start, but was not in a state that I could just use it.
 
@@ -28,11 +28,11 @@ I was able to get this working under native windows and linux, not cygwin.
 
 ## Google cloud account.
 
-As per the original article you will need a google cloud platform account.
+As per the original article you will need a [google cloud platform account](https://console.cloud.google.com/).
 
-Once set up you will need to set up a _"bucket"_, this is an area where you can upload data to on google servers.
+Once set up you will need to [set up a _"bucket"_](https://cloud.google.com/storage/docs/creating-buckets), this is an area where you can upload data to on google servers.
 
-You will need setup a <credentials>.json. This is used by the python script to authenticate against the google servers and allow you to upload the audio file to the server and then call the transcription services.
+You will [need setup a <credentials>.json](https://cloud.google.com/docs/authentication/getting-started). This is used by the python script to authenticate against the google servers and allow you to upload the audio file to the server and then call the transcription services.
 
 In my project I have called the bucket "throat", and I have included an example json file, gcloud-123011d921d1.json, this is a dummy file, to see what one looks like, you can't use it (well you can, but it won't work!)
 
@@ -48,11 +48,11 @@ Once you have the bucket name and json file, edit the gcloud.ini file accordingl
 
 The python script calls ffmpeg under the hood. Make sure it is installed on you machine and in your path:
 
-How to install ffmpeg
+[How to install ffmpeg](https://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/)
 
 ## Transcribe
 
-You should now be setup. I have included a few audio files in the audio directory. It is Thackery Binx from the movie Hocus Pocus saying the phrase, "it's protected by magic".
+You should now be setup. I have included a few audio files in the audio directory. It is [Thackery Binx](https://disney.fandom.com/wiki/Thackery_Binx) from the movie Hocus Pocus saying the phrase, "it's protected by magic".
 
 Bonus points if any one can figure out why that snippet of audio is being used.
 
